@@ -1,0 +1,21 @@
+Patch Notes:
+This file contains the both the latest and previous patch notes
+
+
+Patch 1.0.2
+Fixed a typo that made the 9x18mm malfunction stat much higher than intended
+Fixed a typo that made the 5.45x39mm malfunction stat much lower than intended
+Increased Flare penetration value to 25, so it can ignore armor level one and 2 with a fair chance to penetrate armor class 3
+The damage dealt by explosive shrapnel from the 12/70 and 20/70 Buckshot has been halved
+.366 TKM and .357 Magnum are now categorized under the medium calibres category instead of the previous large and small respectively, while 12/70 and 20/70 Buckshot are now categorized under the large calibres category instead of the previous medium, which affect their stats. A higher calibre group means their malfunction, heat and durability burn stats became significantly worse, and a lower calibre group means those stats have become significantly better
+
+
+Patch 1.0.1
+Added installation, update and uninstallation instructions to file
+Simplified installation process
+You can now sell ammunition on the Dark Web (to WEB AMMO trader) for a higher price than the regular traders. The higher your reputation (loyalty) on the market, the more people are willing to pay your for your ammunition
+Fixed a bug where you could not put .357 Magnum into the Chiappa Rhino 50DS .357 revolver
+Fixed a bug where you could not put 9x19mm into the Chiappa Rhino 200DS 9x19 revolver
+Fixed a bug where the MP-43-1C 12ga double-barrel shotgun would only accept one shell
+Fixed 12/70 and 20/70 buckshot stats, previously took the best stats from both buckshot and slugs, now takes stats only from buckshot
+Massively decreased flare penetration. It is a flare why did it even have 50 penetration value in the first place?
