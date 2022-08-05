@@ -1,0 +1,27 @@
+Patch Notes:
+This file contains both the latest and previous patch notes
+
+
+Patch 1.0.3
+Since my next major update will require a lot of work, it will take some time, so this serves as a temporary re-balance, to create a similar-to-intended effect 
+Changed the Malfunction chances, Heat and Durability burn to be more in-line with the end-vision that will come with a later rework. All these stats have been increased SIGNIFICANTLY, to make it more interesting and balanced to use the bullets. I think I found the perfect balance between useability, and adaptability. Depending on the calibres size and purpose, they are categorized into four; small, medium, large and special. With this patch, all ammunitions within the same category have the same value for these stats, but with the rework that is coming soon™, each bullet will have their own value for each stat. Through testing, the stats have been balanced such that you can spray about two "normal" sized magazine for each calibre, 35, 30, 20, 10 capacity magazines respectively, in quick succession without having a huge chance of malfunctions, however anything more than that and you run into major malfunction issues, as well as a high weapon max durability degredation. The higher the calibre category, the earlier you will experience major malfunction issues. After shooting three mags of "normal" size for the calibre in quick succession, you can expect to have had many, 3-10+, malfunctions, most being with the last magazine, and to have lost about 20 durability and 15 max durability. Note that when I tested this I emptied 3 magazines at full-auto right after each other, so weapon heat was a major factor to increase malfunction chance in the later magazines. Since you loose max durability and have a higher chance at malfunctions when you shoot with a overheated gun, this can be avoided by simply shooting less within a short time period. This encourages an interesting playstyle of conserving fire, and only spraying when it is smart to
+If you for some reason do not like these changes, you can stick with the previous update for now. There has been no major script changes in this version besides the stat changes
+
+
+Patch 1.0.2
+Fixed a typo that made the 9x18mm malfunction stat much higher than intended
+Fixed a typo that made the 5.45x39mm malfunction stat much lower than intended
+Increased Flare penetration value to 25, so it can ignore armour level one and 2 with a fair chance to penetrate armour class 3
+The damage dealt by explosive shrapnel from the 12/70 and 20/70 Buckshot has been halved
+.366 TKM and .357 Magnum are now categorized under the medium calibres category instead of the previous large and small respectively, while 12/70 and 20/70 Buckshot are now categorized under the large calibres category instead of the previous medium, which affect their stats. A higher calibre group means their malfunction, heat and durability burn stats became significantly worse, and a lower calibre group means those stats have become significantly better
+
+
+Patch 1.0.1
+Added installation, update and uninstallation instructions to file
+Simplified installation process
+You can now sell ammunition on the Dark Web (to WEB AMMO trader) for a higher price than the regular traders. The higher your reputation (loyalty) on the market, the more people are willing to pay your for your ammunition
+Fixed a bug where you could not put .357 Magnum into the Chiappa Rhino 50DS .357 revolver
+Fixed a bug where you could not put 9x19mm into the Chiappa Rhino 200DS 9x19 revolver
+Fixed a bug where the MP-43-1C 12ga double-barrel shotgun would only accept one shell
+Fixed 12/70 and 20/70 buckshot stats, previously took the best stats from both buckshot and slugs, now takes stats only from buckshot
+Massively decreased flare penetration. It is a flare why did it even have 50 penetration value in the first place?
