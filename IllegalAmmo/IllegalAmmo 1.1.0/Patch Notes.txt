@@ -2,7 +2,7 @@ Patch Notes:
 This file contains both the latest and previous patch notes
 
 
-Patch 1.0.3
+Patch 1.1.0
 WARNING: BEFORE UPDATING, REMOVE ALL ILLEGAL AMMUNITION FROM YOUR INVENTORY. NOT DOING SO MAY RESULT IN LOSS OF BULLETS OR MORE SERIOUS ISSUES. FOLLOW THE README FOR HOW TO UPDATE.
 
 Updated to Aki Server Version 3.2.0
