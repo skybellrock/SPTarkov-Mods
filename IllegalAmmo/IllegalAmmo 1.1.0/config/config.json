@@ -1,0 +1,1783 @@
+{
+	"General Config":
+	{
+		"Trader Refresh In Seconds": 10800,
+		"Flea Market Fee Multiplier": 1,
+
+		"Weakest Shrapnel Damage": 5,
+		"Weak Shrapnel Damage": 15,
+		"Medium Shrapnel Damage": 30,
+		"Strong Shrapnel Damage": 40,
+		"Strongest Shrapnel Damage": 50
+	},
+
+
+	"Simple Ammunition Config":
+	{
+		"Spawn Chance Multiplier": 1,
+		"Icon Color": "red",
+		"Buy Price Multiplier": 1,
+		"Sell Price Multiplier": 1,
+		"Buy Restriction Amount Multiplier": 1,
+		"Loyalty Level Requirement": 0,
+		"Remove ALL From Flea Market": "true",
+		"Remove ALL From Secured Container": "false",
+
+
+		"All Stats Multiplier": 1,
+
+		"Damage Multiplier": 1,
+		"Armor Penetration Multiplier": 1,
+		"Damage To Armor Multiplier": 1,
+		"Accuracy Multiplier": 1,
+		"Recoil Multiplier": 1,
+		"Fragmentation Chance Multiplier": 1,
+		"Ricochet Chance Multiplier": 1,
+		"Light Bleed Chance Multiplier": 1,
+		"Heavy Bleed Chance Multiplier": 1,
+		"Bullet Velocity Multiplier": 1,
+		"Misfire Chance Multiplier": 1,
+		"Failure To Feed Chance Multiplier": 1,
+		"Durability Burn Multiplier": 1,
+		"Heat Multiplier": 1,
+
+
+		"Buckshot Pellets Multiplier": 1,
+		"Fragments Multiplier": 1,
+		"Minimum Explosion Distance Multiplier": 1,
+		"Maximum Explosion Distance Multiplier": 1,
+
+		"Tracer On": "true",
+		"Tracer Color": "tracerRed",
+		"Tracer Length Multiplier": 1
+	},
+
+
+	"Advanced Ammunition Config":
+	{
+		"Small Calibre":
+		{
+			"7.62x25mm TT ILLEGAL":
+			{
+				"Spawn Chance": 484,
+				"Icon Color": "color",
+				"Buy Price": 2500,
+				"Sell Price": 1250,
+				"Buy Restriction Amount": 50,
+				"Loyalty Level Requirement": 0,
+				"Removed From Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 66,
+				"Armor Penetration": 25,
+				"Damage To Armor": 36,
+				"Accuracy": 15,
+				"Recoil": -15,
+				"Fragmentation Chance": 0.2,
+				"Ricochet Chance": 0.1,
+				"Light Bleed Chance": 0.15,
+				"Heavy Bleed Chance": 0.1,
+				"Bullet Velocity": 430,
+				"Misfire Chance": 0.1,
+				"Failure To Feed Chance": 0.01,
+				"Durability Burn": 2.5,
+				"Heat": 1.75,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+				"Tracer Length": 0.1,
+
+
+				"Advanced":
+				{
+					"Enabled": "placeholder",
+					
+					"Fragmentation Chance":
+					{
+						"Highest Chance": 100,
+						"Offset": -25
+					},
+						"Misfire Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Failure To Feed Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Durability Burn":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Heat":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					}
+				},
+
+
+				"Mod Compatibility":
+				{
+					"Fin's AI Tweaks": "false"
+				}
+			},
+
+			".45 ACP ILLEGAL": 
+			{
+				"Spawn Chance": 434,
+				"Icon Color": "color",
+				"Buy Price": 10000,
+				"Sell Price": 5000,
+				"Buy Restriction Amount": 50,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 137,
+				"Armor Penetration": 38,
+				"Damage To Armor": 48,
+				"Accuracy": 10,
+				"Recoil": 0,
+				"Fragmentation Chance": 0.1,
+				"Ricochet Chance": 0.1,
+				"Light Bleed Chance": 0.3,
+				"Heavy Bleed Chance": 0.3,
+				"Bullet Velocity": 340,
+				"Misfire Chance": 0.1,
+				"Failure To Feed Chance": 0.01,
+				"Durability Burn": 2.5,
+				"Heat": 1.75,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+				"Tracer Length": 0.1,
+
+
+				"Advanced":
+				{
+					"Enabled": "placeholder",
+					
+					"Fragmentation Chance":
+					{
+						"Highest Chance": 100,
+						"Offset": -25
+					},
+						"Misfire Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Failure To Feed Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Durability Burn":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Heat":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					}
+				},
+
+
+				"Mod Compatibility":
+				{
+					"Fin's AI Tweaks": "false"
+				}
+			},
+
+			"9x39mm ILLEGAL gs": 
+			{
+				"Spawn Chance": 420,
+				"Icon Color": "color",
+				"Buy Price": 12000,
+				"Sell Price": 6000,
+				"Buy Restriction Amount": 50,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 71,
+				"Armor Penetration": 55,
+				"Damage To Armor": 68,
+				"Accuracy": 10,
+				"Recoil": -5,
+				"Fragmentation Chance": 0.1,
+				"Ricochet Chance": 0.5,
+				"Light Bleed Chance": 0.1,
+				"Heavy Bleed Chance": 0.2,
+				"Bullet Velocity": 320,
+				"Misfire Chance": 0.1,
+				"Failure To Feed Chance": 0.01,
+				"Durability Burn": 2.5,
+				"Heat": 1.75,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+				"Tracer Length": 0.1,
+
+
+				"Advanced":
+				{
+					"Enabled": "placeholder",
+					
+					"Fragmentation Chance":
+					{
+						"Highest Chance": 100,
+						"Offset": -25
+					},
+						"Misfire Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Failure To Feed Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Durability Burn":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Heat":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					}
+				},
+
+
+				"Mod Compatibility":
+				{
+					"Fin's AI Tweaks": "false"
+				}
+				
+			},
+			
+			"9x18mm PM ILLEGAL gzh": 
+			{
+				"Spawn Chance": 473,
+				"Icon Color": "color",
+				"Buy Price": 4000,
+				"Sell Price": 2000,
+				"Buy Restriction Amount": 50,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 77,
+				"Armor Penetration": 28,
+				"Damage To Armor": 30,
+				"Accuracy": 10,
+				"Recoil": -7,
+				"Fragmentation Chance": 0.16,
+				"Ricochet Chance": 0.9,
+				"Light Bleed Chance": 0.25,
+				"Heavy Bleed Chance": 0.1,
+				"Bullet Velocity": 519,
+				"Misfire Chance": 0.1,
+				"Failure To Feed Chance": 0.01,
+				"Durability Burn": 2.5,
+				"Heat": 1.75,
+
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+				"Tracer Length": 0.1,
+
+
+				"Advanced":
+				{
+					"Enabled": "placeholder",
+					
+					"Fragmentation Chance":
+					{
+						"Highest Chance": 100,
+						"Offset": -25
+					},
+						"Misfire Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Failure To Feed Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Durability Burn":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Heat":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					}
+				},
+
+
+				"Mod Compatibility":
+				{
+					"Fin's AI Tweaks": "false"
+				}
+			},
+
+			"9x19mm ILLEGAL": 
+			{
+				"Spawn Chance": 446,
+				"Icon Color": "color",
+				"Buy Price": 8000,
+				"Sell Price": 4000,
+				"Buy Restriction Amount": 50,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 102,
+				"Armor Penetration": 39,
+				"Damage To Armor": 53,
+				"Accuracy": 15,
+				"Recoil": -6,
+				"Fragmentation Chance": 0.5,
+				"Ricochet Chance": 0.2,
+				"Light Bleed Chance": 0.3,
+				"Heavy Bleed Chance": 0.22,
+				"Bullet Velocity": 560,
+				"Misfire Chance": 0.1,
+				"Failure To Feed Chance": 0.01,
+				"Durability Burn": 2.5,
+				"Heat": 1.75,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+				"Tracer Length": 0.1,
+
+
+				"Advanced":
+				{
+					"Enabled": "placeholder",
+					
+					"Fragmentation Chance":
+					{
+						"Highest Chance": 100,
+						"Offset": -25
+					},
+						"Misfire Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Failure To Feed Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Durability Burn":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Heat":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					}
+				},
+
+
+				"Mod Compatibility":
+				{
+					"Fin's AI Tweaks": "false"
+				}
+			},
+			
+			"5.7x28mm ILLEGAL": 
+			{
+				"Spawn Chance": 473,
+				"Icon Color": "color",
+				"Buy Price": 4000,
+				"Sell Price": 2000,
+				"Buy Restriction Amount": 50,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 98,
+				"Armor Penetration": 37,
+				"Damage To Armor": 43,
+				"Accuracy": 5,
+				"Recoil": -24,
+				"Fragmentation Chance": 0.2,
+				"Ricochet Chance": 0.6,
+				"Light Bleed Chance": 0.15,
+				"Heavy Bleed Chance": 0.15,
+				"Bullet Velocity": 922,
+				"Misfire Chance": 0.1,
+				"Failure To Feed Chance": 0.01,
+				"Durability Burn": 2.5,
+				"Heat": 1.75,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+				"Tracer Length": 0.1,
+
+
+				"Advanced":
+				{
+					"Enabled": "placeholder",
+					
+					"Fragmentation Chance":
+					{
+						"Highest Chance": 100,
+						"Offset": -25
+					},
+						"Misfire Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Failure To Feed Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Durability Burn":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Heat":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					}
+				},
+
+
+				"Mod Compatibility":
+				{
+					"Fin's AI Tweaks": "false"
+				}
+			},
+			
+			"9x21mm ILLEGAL gzh": 
+			{
+				"Spawn Chance": 466,
+				"Icon Color": "color",
+				"Buy Price": 5000,
+				"Sell Price": 2500,
+				"Buy Restriction Amount": 50,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 80,
+				"Armor Penetration": 39,
+				"Damage To Armor": 47,
+				"Accuracy": 0,
+				"Recoil": -4,
+				"Fragmentation Chance": 0.2,
+				"Ricochet Chance": 0.4,
+				"Light Bleed Chance": 0.15,
+				"Heavy Bleed Chance": 0.1,
+				"Bullet Velocity": 415,
+				"Misfire Chance": 0.1,
+				"Failure To Feed Chance": 0.01,
+				"Durability Burn": 2.5,
+				"Heat": 1.75,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+				"Tracer Length": 0.1,
+
+
+				"Advanced":
+				{
+					"Enabled": "placeholder",
+					
+					"Fragmentation Chance":
+					{
+						"Highest Chance": 100,
+						"Offset": -25
+					},
+						"Misfire Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Failure To Feed Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Durability Burn":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Heat":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					}
+				},
+
+
+				"Mod Compatibility":
+				{
+					"Fin's AI Tweaks": "false"
+				}
+			},
+			
+			"4.6x30mm ILLEGAL SX": 
+			{
+				"Spawn Chance": 416,
+				"Icon Color": "color",
+				"Buy Price": 12500,
+				"Sell Price": 6250,
+				"Buy Restriction Amount": 50,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 65,
+				"Armor Penetration": 53,
+				"Damage To Armor": 46,
+				"Accuracy": 10,
+				"Recoil": -22,
+				"Fragmentation Chance": 0.1,
+				"Ricochet Chance": 0.6,
+				"Light Bleed Chance": 0,
+				"Heavy Bleed Chance": 0,
+				"Bullet Velocity": 690,
+				"Misfire Chance": 0.1,
+				"Failure To Feed Chance": 0.01,
+				"Durability Burn": 2.5,
+				"Heat": 1.75,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+				"Tracer Length": 0.1,
+
+
+				"Advanced":
+				{
+					"Enabled": "placeholder",
+					
+					"Fragmentation Chance":
+					{
+						"Highest Chance": 100,
+						"Offset": -25
+					},
+						"Misfire Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Failure To Feed Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Durability Burn":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Heat":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					}
+				},
+
+
+				"Mod Compatibility":
+				{
+					"Fin's AI Tweaks": "false"
+				}
+			}
+		},
+
+
+
+		"Medium Calibre":
+		{
+			"7.62x39mm ILLEGAL": 
+			{
+				"Spawn Chance": 394,
+				"Icon Color": "color",
+				"Buy Price": 16000,
+				"Sell Price": 8000,
+				"Buy Restriction Amount": 30,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 87,
+				"Armor Penetration": 58,
+				"Damage To Armor": 76,
+				"Accuracy": 5,
+				"Recoil": -30,
+				"Fragmentation Chance": 0.5,
+				"Ricochet Chance": 0.435,
+				"Light Bleed Chance": 0.15,
+				"Heavy Bleed Chance": 0.15,
+				"Bullet Velocity": 754,
+				"Misfire Chance": 0.15,
+				"Failure To Feed Chance": 0.055,
+				"Durability Burn": 3.5,
+				"Heat": 2.25,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+				"Tracer Length": 0.1,
+
+
+				"Advanced":
+				{
+					"Enabled": "placeholder",
+					
+					"Fragmentation Chance":
+					{
+						"Highest Chance": 100,
+						"Offset": -25
+					},
+						"Misfire Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Failure To Feed Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Durability Burn":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Heat":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					}
+				},
+
+
+				"Mod Compatibility":
+				{
+					"Fin's AI Tweaks": "false"
+				}
+			},
+			
+			"5.45x39mm ILLEGAL gs": 
+			{
+				"Spawn Chance": 366,
+				"Icon Color": "color",
+				"Buy Price": 20000,
+				"Sell Price": 10000,
+				"Buy Restriction Amount": 30,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 74,
+				"Armor Penetration": 62,
+				"Damage To Armor": 55,
+				"Accuracy": 50,
+				"Recoil": -25,
+				"Fragmentation Chance": 0.2,
+				"Ricochet Chance": 0.38,
+				"Light Bleed Chance": 0.2,
+				"Heavy Bleed Chance": 0.15,
+				"Bullet Velocity": 915,
+				"Misfire Chance": 0.15,
+				"Failure To Feed Chance": 0.055,
+				"Durability Burn": 3.5,
+				"Heat": 2.25,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+				"Tracer Length": 0.1,
+
+
+				"Advanced":
+				{
+					"Enabled": "placeholder",
+					
+					"Fragmentation Chance":
+					{
+						"Highest Chance": 100,
+						"Offset": -25
+					},
+						"Misfire Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Failure To Feed Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Durability Burn":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Heat":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					}
+				},
+
+
+				"Mod Compatibility":
+				{
+					"Fin's AI Tweaks": "false"
+				}
+			},
+			
+			"5.56x45mm ILLEGAL": 
+			{
+				"Spawn Chance": 380,
+				"Icon Color": "color",
+				"Buy Price": 18000,
+				"Sell Price": 9000,
+				"Buy Restriction Amount": 30,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 88,
+				"Armor Penetration": 57,
+				"Damage To Armor": 64,
+				"Accuracy": 10,
+				"Recoil": -5,
+				"Fragmentation Chance": 0.2,
+				"Ricochet Chance": 0.48,
+				"Light Bleed Chance": 0.2,
+				"Heavy Bleed Chance": 0.2,
+				"Bullet Velocity": 1013,
+				"Misfire Chance": 0.15,
+				"Failure To Feed Chance": 0.055,
+				"Durability Burn": 3.5,
+				"Heat": 2.25,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+				"Tracer Length": 0.1,
+
+
+				"Advanced":
+				{
+					"Enabled": "placeholder",
+					
+					"Fragmentation Chance":
+					{
+						"Highest Chance": 100,
+						"Offset": -25
+					},
+						"Misfire Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Failure To Feed Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Durability Burn":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Heat":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					}
+				},
+
+
+				"Mod Compatibility":
+				{
+					"Fin's AI Tweaks": "false"
+				}
+			},
+			
+			".300 Blackout ILLEGAL": 
+			{
+				"Spawn Chance": 400,
+				"Icon Color": "color",
+				"Buy Price": 15000,
+				"Sell Price": 7500,
+				"Buy Restriction Amount": 30,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 90,
+				"Armor Penetration": 48,
+				"Damage To Armor": 65,
+				"Accuracy": 30,
+				"Recoil": -10,
+				"Fragmentation Chance": 0.3,
+				"Ricochet Chance": 0.1,
+				"Light Bleed Chance": 0.22,
+				"Heavy Bleed Chance": 0.2,
+				"Bullet Velocity": 853,
+				"Misfire Chance": 0.15,
+				"Failure To Feed Chance": 0.055,
+				"Durability Burn": 3.5,
+				"Heat": 2.25,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+				"Tracer Length": 0.1,
+
+
+				"Advanced":
+				{
+					"Enabled": "placeholder",
+					
+					"Fragmentation Chance":
+					{
+						"Highest Chance": 100,
+						"Offset": -25
+					},
+						"Misfire Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Failure To Feed Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Durability Burn":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Heat":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					}
+				},
+
+
+				"Mod Compatibility":
+				{
+					"Fin's AI Tweaks": "false"
+				}
+			},
+			
+			".366 TKM ILLEGAL": 
+			{
+				"Spawn Chance": 366,
+				"Icon Color": "color",
+				"Buy Price": 20000,
+				"Sell Price": 10000,
+				"Buy Restriction Amount": 15,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 110,
+				"Armor Penetration": 42,
+				"Damage To Armor": 60,
+				"Accuracy": 0,
+				"Recoil": -15,
+				"Fragmentation Chance": 0.1,
+				"Ricochet Chance": 0.65,
+				"Light Bleed Chance": 0.3,
+				"Heavy Bleed Chance": 0.25,
+				"Bullet Velocity": 770,
+				"Misfire Chance": 0.15,
+				"Failure To Feed Chance": 0.055,
+				"Durability Burn": 3.5,
+				"Heat": 2.25,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+				"Tracer Length": 0.1,
+
+
+				"Advanced":
+				{
+					"Enabled": "placeholder",
+					
+					"Fragmentation Chance":
+					{
+						"Highest Chance": 100,
+						"Offset": -25
+					},
+						"Misfire Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Failure To Feed Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Durability Burn":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Heat":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					}
+				},
+
+
+				"Mod Compatibility":
+				{
+					"Fin's AI Tweaks": "false"
+				}
+			},
+			
+			".357 Magnum ILLEGAL": 
+			{
+				"Spawn Chance": 466,
+				"Icon Color": "color",
+				"Buy Price": 5000,
+				"Sell Price": 2500,
+				"Buy Restriction Amount": 25,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 108,
+				"Armor Penetration": 35,
+				"Damage To Armor": 43,
+				"Accuracy": 27,
+				"Recoil": -29,
+				"Fragmentation Chance": 0.1,
+				"Ricochet Chance": 0.65,
+				"Light Bleed Chance": 0.4,
+				"Heavy Bleed Chance": 0.3,
+				"Bullet Velocity": 481,
+				"Misfire Chance": 0.15,
+				"Failure To Feed Chance": 0.055,
+				"Durability Burn": 3.5,
+				"Heat": 2.25,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+				"Tracer Length": 0.1,
+
+
+				"Advanced":
+				{
+					"Enabled": "placeholder",
+					
+					"Fragmentation Chance":
+					{
+						"Highest Chance": 100,
+						"Offset": -25
+					},
+						"Misfire Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Failure To Feed Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Durability Burn":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Heat":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					}
+				},
+
+
+				"Mod Compatibility":
+				{
+					"Fin's AI Tweaks": "false"
+				}
+			}
+		},
+
+
+
+		"Large Calibre":
+		{
+			"7.62x51mm ILLEGAL": 
+			{
+				"Spawn Chance": 300,
+				"Icon Color": "color",
+				"Buy Price": 30000,
+				"Sell Price": 15000,
+				"Buy Restriction Amount": 10,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 107,
+				"Armor Penetration": 70,
+				"Damage To Armor": 85,
+				"Accuracy": 10,
+				"Recoil": -5,
+				"Fragmentation Chance": 0.13,
+				"Ricochet Chance": 0.28,
+				"Light Bleed Chance": 0.2,
+				"Heavy Bleed Chance": 0.2,
+				"Bullet Velocity": 910,
+				"Misfire Chance": 0.2,
+				"Failure To Feed Chance": 0.115,
+				"Durability Burn": 4.5,
+				"Heat": 2.75,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+				"Tracer Length": 0.1,
+
+
+				"Advanced":
+				{
+					"Enabled": "placeholder",
+					
+					"Fragmentation Chance":
+					{
+						"Highest Chance": 100,
+						"Offset": -25
+					},
+						"Misfire Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Failure To Feed Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Durability Burn":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Heat":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					}
+				},
+
+
+				"Mod Compatibility":
+				{
+					"Fin's AI Tweaks": "false"
+				}
+			},
+			
+			"12.7x55mm PS12I": 
+			{
+				"Spawn Chance": 333,
+				"Icon Color": "color",
+				"Buy Price": 25000,
+				"Sell Price": 12500,
+				"Buy Restriction Amount": 7,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 165,
+				"Armor Penetration": 46,
+				"Damage To Armor": 57,
+				"Accuracy": 10,
+				"Recoil": -12,
+				"Fragmentation Chance": 0.3,
+				"Ricochet Chance": 0.5,
+				"Light Bleed Chance": 0.35,
+				"Heavy Bleed Chance": 0.3,
+				"Bullet Velocity": 300,
+				"Misfire Chance": 0.2,
+				"Failure To Feed Chance": 0.115,
+				"Durability Burn": 4.5,
+				"Heat": 2.75,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+				"Tracer Length": 0.1,
+
+
+				"Advanced":
+				{
+					"Enabled": "placeholder",
+					
+					"Fragmentation Chance":
+					{
+						"Highest Chance": 100,
+						"Offset": -25
+					},
+						"Misfire Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Failure To Feed Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Durability Burn":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Heat":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					}
+				},
+
+
+				"Mod Compatibility":
+				{
+					"Fin's AI Tweaks": "false"
+				}
+			},
+			
+			"7.62x54mm R ILLEGAL gzh": 
+			{
+				"Spawn Chance": 316,
+				"Icon Color": "color",
+				"Buy Price": 27500,
+				"Sell Price": 13750,
+				"Buy Restriction Amount": 10,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 84,
+				"Armor Penetration": 70,
+				"Damage To Armor": 88,
+				"Accuracy": 10,
+				"Recoil": -5,
+				"Fragmentation Chance": 0.83,
+				"Ricochet Chance": 0.34,
+				"Light Bleed Chance": 0,
+				"Heavy Bleed Chance": 0,
+				"Bullet Velocity": 875,
+				"Misfire Chance": 0.2,
+				"Failure To Feed Chance": 0.115,
+				"Durability Burn": 4.5,
+				"Heat": 2.75,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+				"Tracer Length": 0.1,
+
+
+				"Advanced":
+				{
+					"Enabled": "placeholder",
+					
+					"Fragmentation Chance":
+					{
+						"Highest Chance": 100,
+						"Offset": -25
+					},
+						"Misfire Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Failure To Feed Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Durability Burn":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Heat":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					}
+				},
+
+
+				"Mod Compatibility":
+				{
+					"Fin's AI Tweaks": "false"
+				}
+			},
+			
+			"23x75mm ILLEGAL slug": 
+			{
+				"Spawn Chance": 366,
+				"Icon Color": "color",
+				"Buy Price": 20000,
+				"Sell Price": 10000,
+				"Buy Restriction Amount": 10,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 192,
+				"Armor Penetration": 39,
+				"Damage To Armor": 75,
+				"Accuracy": 50,
+				"Recoil": -350,
+				"Fragmentation Chance": 0.2,
+				"Ricochet Chance": 0.4,
+				"Light Bleed Chance": 0.5,
+				"Heavy Bleed Chance": 0.5,
+				"Bullet Velocity": 420,
+				"Misfire Chance": 0.2,
+				"Failure To Feed Chance": 0.115,
+				"Durability Burn": 4.5,
+				"Heat": 2.75,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+				"Tracer Length": 0.1,
+
+
+				"Advanced":
+				{
+					"Enabled": "placeholder",
+					
+					"Fragmentation Chance":
+					{
+						"Highest Chance": 100,
+						"Offset": -25
+					},
+						"Misfire Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Failure To Feed Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Durability Burn":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Heat":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					}
+				},
+
+
+				"Mod Compatibility":
+				{
+					"Fin's AI Tweaks": "false"
+				}
+			}
+		},
+
+
+
+		"Special Calibre":
+		{
+			"26x75mm signal flare of death (green)": 
+			{
+				"Spawn Chance": 400,
+				"Icon Color": "color",
+				"Buy Price": 15000,
+				"Sell Price": 7500,
+				"Buy Restriction Amount": 10,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 540,
+				"Armor Penetration": 100,
+				"Damage To Armor": 100,
+				"Accuracy": 1000,
+				"Recoil": 1000,
+				"Fragmentation Chance": 1,
+				"Ricochet Chance": 0,
+				"Light Bleed Chance": 1,
+				"Heavy Bleed Chance": 1,
+				"Bullet Velocity": 100,
+				"Misfire Chance": 0.25,
+				"Failure To Feed Chance": 0.16,
+				"Durability Burn": 5.5,
+				"Heat": 3.25,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+				"Tracer Length": 0.1,
+
+
+				"Advanced":
+				{
+					"Enabled": "placeholder",
+					
+					"Fragmentation Chance":
+					{
+						"Highest Chance": 100,
+						"Offset": -25
+					},
+						"Misfire Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Failure To Feed Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Durability Burn":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Heat":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					}
+				},
+
+
+				"Mod Compatibility":
+				{
+					"Fin's AI Tweaks": "false"
+				}
+			},
+
+			"26x75mm signal flare of flex (tracerRed)":
+			{
+				"WARNING": "PLACEHOLDER",
+				"Spawn Chance": 15,
+				"Icon Color": "color",
+				"Buy Price": 300000,
+				"Sell Price": 150000,
+				"Buy Restriction Amount": 1,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 1080,
+				"Armor Penetration": 100,
+				"Damage To Armor": 100,
+				"Accuracy": 2000,
+				"Recoil": 1500,
+				"Fragmentation Chance": 1,
+				"Ricochet Chance": 0,
+				"Light Bleed Chance": 1,
+				"Heavy Bleed Chance": 1,
+				"Bullet Velocity": 150,
+				"Misfire Chance": 0.25,
+				"Failure To Feed Chance": 0.16,
+				"Durability Burn": 5.5,
+				"Heat": 3.25,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+				"Tracer Length": 0.1,
+
+
+				"Advanced":
+				{
+					"Enabled": "placeholder",
+					
+					"Fragmentation Chance":
+					{
+						"Highest Chance": 100,
+						"Offset": -25
+					},
+						"Misfire Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Failure To Feed Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Durability Burn":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Heat":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					}
+				},
+
+
+				"Mod Compatibility":
+				{
+					"Fin's AI Tweaks": "false"
+				}
+			},
+			
+			"12/70mm ILLEGAL buckshot": 
+			{
+				"Spawn Chance": 334,
+				"Icon Color": "color",
+				"Buy Price": 25000,
+				"Sell Price": 12500,
+				"Buy Restriction Amount": 5,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 50,
+				"Armor Penetration": 31,
+				"Damage To Armor": 26,
+				"Accuracy": 15,
+				"Recoil": 0,
+				"Fragmentation Chance": 0,
+				"Ricochet Chance": 0,
+				"Light Bleed Chance": 0.25,
+				"Heavy Bleed Chance": 0.25,
+				"Bullet Velocity": 430,
+				"Misfire Chance": 0.25,
+				"Failure To Feed Chance": 0.16,
+				"Durability Burn": 5.5,
+				"Heat": 3.25,
+
+				"Buckshot Pellets": 8,
+				"Explosive": "true",
+				"Fragments": 5,
+				"Fragment Type": "Weak IllegalShrap",
+				"Minimum Explosion Distance": 0.15,
+				"Maximum Explosion Distance": 5,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+				"Tracer Length": 0.1,
+
+
+				"Advanced":
+				{
+					"Enabled": "placeholder",
+					
+					"Fragmentation Chance":
+					{
+						"Highest Chance": 100,
+						"Offset": -25
+					},
+						"Misfire Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Failure To Feed Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Durability Burn":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Heat":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					}
+				},
+
+
+				"Mod Compatibility":
+				{
+					"Fin's AI Tweaks": "false"
+				}
+			},
+			
+			"20/70mm ILLEGAL buckshot": 
+			{
+				"Spawn Chance": 400,
+				"Icon Color": "color",
+				"Buy Price": 15000,
+				"Sell Price": 7500,
+				"Buy Restriction Amount": 5,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 26,
+				"Armor Penetration": 3,
+				"Damage To Armor": 14,
+				"Accuracy": 130,
+				"Recoil": -15,
+				"Fragmentation Chance": 0,
+				"Ricochet Chance": 0,
+				"Light Bleed Chance": 0.2,
+				"Heavy Bleed Chance": 0.3,
+				"Bullet Velocity": 475,
+				"Misfire Chance": 0.25,
+				"Failure To Feed Chance": 0.16,
+				"Durability Burn": 5.5,
+				"Heat": 3.25,
+
+				"Buckshot Pellets": 8,
+				"Explosive": "true",
+				"Fragments": 5,
+				"Fragment Type": "Weak IllegalShrap",
+				"Minimum Explosion Distance": 0.15,
+				"Maximum Explosion Distance": 5,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+				"Tracer Length": 0.1,
+
+
+				"Advanced":
+				{
+					"Enabled": "placeholder",
+					
+					"Fragmentation Chance":
+					{
+						"Highest Chance": 100,
+						"Offset": -25
+					},
+						"Misfire Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Failure To Feed Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Durability Burn":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Heat":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					}
+				},
+
+
+				"Mod Compatibility":
+				{
+					"Fin's AI Tweaks": "false"
+				}
+			},
+			
+			".338 Lapua Magnum ILLEGAL": 
+			{
+				"Spawn Chance": 166,
+				"Icon Color": "color",
+				"Buy Price": 50000,
+				"Sell Price": 25000,
+				"Buy Restriction Amount": 3,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 196,
+				"Armor Penetration": 79,
+				"Damage To Armor": 89,
+				"Accuracy": 10,
+				"Recoil": 0,
+				"Fragmentation Chance": 0.13,
+				"Ricochet Chance": 0.3,
+				"Light Bleed Chance": 0.8,
+				"Heavy Bleed Chance": 0.55,
+				"Bullet Velocity": 900,
+				"Misfire Chance": 0.25,
+				"Failure To Feed Chance": 0.16,
+				"Durability Burn": 5.5,
+				"Heat": 3.25,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+				"Tracer Length": 0.1,
+
+
+				"Advanced":
+				{
+					"Enabled": "placeholder",
+					
+					"Fragmentation Chance":
+					{
+						"Highest Chance": 100,
+						"Offset": -25
+					},
+						"Misfire Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Failure To Feed Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Durability Burn":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Heat":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					}
+				},
+
+
+				"Mod Compatibility":
+				{
+					"Fin's AI Tweaks": "false"
+				}
+			},
+			
+			"40x46mm ILLEGAL (HE) grenade": 
+			{
+				"Spawn Chance": 60,
+				"Icon Color": "color",
+				"Buy Price": 75000,
+				"Sell Price": 37500,
+				"Buy Restriction Amount": 3,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 400,
+				"Armor Penetration": 100,
+				"Damage To Armor": 100,
+				"Accuracy": 10,
+				"Recoil": -50,
+				"Fragmentation Chance": 1,
+				"Ricochet Chance": 0.5,
+				"Light Bleed Chance": 1,
+				"Heavy Bleed Chance": 1,
+				"Bullet Velocity": 250,
+				"Misfire Chance": 0.25,
+				"Failure To Feed Chance": 0.16,
+				"Durability Burn": 5.5,
+				"Heat": 3.25,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+				"Tracer Length": 0.1,
+
+
+				"Advanced":
+				{
+					"Enabled": "placeholder",
+					
+					"Fragmentation Chance":
+					{
+						"Highest Chance": 100,
+						"Offset": -25
+					},
+						"Misfire Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Failure To Feed Chance":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Durability Burn":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					},
+					"Heat":
+					{
+						"Lowest Chance": 1,
+						"Highest Chance": 2
+					}
+				},
+
+
+				"Mod Compatibility":
+				{
+					"Fin's AI Tweaks": "false"
+				}
+			}
+		}
+	},
+
+
+
+	"Spawn Chance":
+	{
+		"Enabled": "placeholder",
+		
+		"Base Total Chance": 5000,
+			
+			"Very High":
+			{
+				"Chance Multiplier": 1,
+				"Lowest Threshold": 0
+			},
+
+			"High":
+			{
+				"Chance Multiplier": 1,
+				"Lowest Threshold": 0
+			},
+
+			"Medium":
+			{
+				"Chance Multiplier": 1,
+				"Lowest Threshold": 0
+			},
+
+			"Low":
+			{
+				"Chance Multiplier": 1,
+				"Lowest Threshold": 0
+			}
+	
+	}
+}

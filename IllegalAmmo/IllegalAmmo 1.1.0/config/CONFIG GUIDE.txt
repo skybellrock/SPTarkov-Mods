@@ -1,0 +1,80 @@
+THIS FILE WILL HELP YOU UNDERSTAND HOW TO CONFIGURE THE SETTINGS IN THIS MOD TO YOUR LIKING. PLEASE READ BEFORE YOU MAKE CHANGES SO YOU DO NOT BREAK THINGS ACCIDENTALLY.
+
+
+The config consists of three main "groups":
+
+○ General Config - Contains various settings that doesn't necesarilly have direct ties to the ammunition itself.
+
+○ Simple Ammunition Config - Is a simplified and more convenient way of changing a stat for all bullets or changing all stats for all bullets with a simple change of a multiplier. It can also turn on and off or set certain options for all bullets.
+
+○ Advanced Ammunition Config - Gives you more granular control, and let's you change all important stats for each bullet individually. The values here is what the multipliers from the Simple Ammunition Config is altering.
+
+
+
+In the config you will encounter five types of options:
+
+○ Multipliers - Are found only in the Simple Ammunition Config. They change settings by multiplying itself with the value that is set in the corresponding Advanced Ammunition Config setting. Multipliers are convenient because they allow for easy changing of settings, and they maintain certain balances between ammunitions. If you set the multiplier for damage to 2, which means every bullet deals twice the damage of default, the bullet that used to deal the most damage still does, the relationship between the bullets do not change. Default values for all multipliers is 1.
+
+○ Booleans - Are settings that only accept "true", "false" or "". It is important that you keep the quotations around the boolean, or it might not work. Booleans in my mod is coded such that often leaving it empty will result in the default setting for the mod automatically being applied. This is to prevent crashes and issues, but you may get error messages in the server console if it does not like being empty, and it will tell you what and where the issue is. Both Simple Ammunition Config and Advanced Ammunition Config contains Booleans, often for the same setting. It is recommended to always have the boolean setting active and set to your preferred overall option in Simple Ammunition Config. That is because any boolean you put in Advanced Ammunition Config will override the setting in Simple Ammunition Config for that bullet. So if you for example want most bullets to not be available on the flea market, you would disable flea market in the Simple Ammunition Config, but in the Advanced Ammunition config you would enable flea market for the specific bullets that you want to access on the flea regardless of the general Simple Ammunition Config setting. Advanced Ammunition Config ovverides Simple Ammunition Config and Simple Ammunition Config overrides empty settings from Advanced Ammunition Config. 
+
+○ Values - Are mostly found in the Advanced Ammunition Config. Whenever there is a setting with a value that does not contain the word "multiplier" in the name, it is a value based setting. Whatever number you put here simply changes the value for an option, what the value means depends on which option you are changing.
+
+○ Multiple Choice - Are settings where you need to specify a desired setting with text instead of a value. Further down in this document, I explain each setting in more detail, all possible settings for these will be listed there. Just like with booleans, it is important to keep the desired setting inside of quotations.
+
+○ Placeholders - Are marked very clearly. Changing their settings may either break something or simply have no effect. They are there in anticipation for future updates or simply for testing purposes. They are not meant for users to mess with, and there is no reason for you to change them.
+
+
+
+Settings and what they do:
+
+General Config:
+
+○ "Trader Refresh In Seconds" - Sets how long, in seconds, it takes between each stock reset of the custom trader WEB AMMO. Default is 10800, 3 hours.
+
+○ "Flea Market Fee Multiplier" - Changes how much you pay to put ILLEGAL ammunition up for sale on the Flea Market.
+
+○ "XXXXX Shrapnel Damage" - Sets how much damage each fragment deals depending on the "Fragment Type" chosen for the bullets that support that setting.
+
+
+Simple Ammunition Config:
+
+○ Multipliers will not be individually explained as they literally just multiply the value of the corresponding setting in Advanced Ammunition Config. They are named in such a way that it should be obvious what setting correspond to which. Higher value means better stats, higher chance, etc.
+
+○ Neither will the Booleans or Multiple Choice's as the only difference between Advanced Ammunition Configs entries and the corresponding entries in SImple Ammunition Config, is that the Advanced Ammunition Config settings always will override the ones from Simple Ammunition Config.
+
+
+Advanced Ammunition Config:
+
+○ "Spawn Chance" - Sets the chance for ILLEGAL ammunition to spawn inside of select containers. The higher, the more likely to spawn. It is unclear how this value works, and therefore hard to judge how likely it is to spawn depending on what ○ value it has. All we can do is compare it to other BSG spawn values. Corrugated Hose have an average spawn chance of 9000, Bronze Lions of 1000, and LEDX of 200 on their set static spawns. Do not let this fool you. Just because each ILLEGAL bullet is hovering slightly above the LEDX spawn chance, does not mean they are nearly as rare as LEDX. Keep in mind that there are 24 ILLEGAL bullets. When the chances are added together, the chance of finding any ILLEGAL bullet by default is about 5000, so slightly under the chance of finding a Bronze Lion.
+
+○ "Icon Color" - Sets the default background color for the icon of ILLEGAL ammunition catridges. Acceptable options are blue, yellow, green, red, black, grey, violet, orange, tracerYellow, tracerGreen or tracerRed.
+
+○ "Buy Price" - Sets the price of ILLEGAL ammunition from WEB AMMO.
+
+○ "Sell Price" - Sets the "value" of ILLEGAL ammunition, the higher this is, the more money traders will give for the ammunition. This value also changes how much ILLEGAL ammunition sells for on the flea market. This is set relatively low by default as a balance measure to keep buy prices of ILLEGAL ammunition high, but not make ILLEGAL ammunition too valuable when selling it to traders. That is why it is not recommended to have flea market on. You can't both balance the price you can sell the ammunition from and also keep flea market prices reasonably high.
+
+○ "Buy Restriction Amount" - Sets how many of a certain bullet you can buy from WEB AMMO trader each stock refresh.
+
+○ "Loyalty Level Requirement" - Loyalty Level Requirement sets at what trader loyalty level ILLEGAL ammunition is available. Acceptable values are from 0 to 4. If you set a value to 0, it essentially disables the setting. If you set both the setting in Simple and Advanced Ammunition Config to 0, it will return you to the default setting set by me for each bullet.
+
+○ "Removed From Flea Market" - Removes a bullet entirely from the Flea Market, you can't buy or sell it if this is set to true.
+
+○ "Removed From Secured Container" - Stops you from putting ILLEGAL ammunition inside your secured containers.
+
+
+○ "Damage" - Sets the damage that each projectile does. This means that for buckshots, the damage value will set the damage that each individual pellet does.
+
+○ "Buckshot Pellets" - Sets the amount of buckshot pellets that exit your barrel when shooting a shotgun.
+
+○ "Explosive" - Sets whether a bullet will explode on impact for the bullets that support this option.
+
+○ "Fragments" - Sets the amount of fragments that will fly around after the explosion.
+
+○ "Tracer Color" - Sets the color of the bullets tracer. Acceptable options are blue, yellow, green, red, black, grey, violet, orange, tracerYellow, tracerGreen or tracerRed.
+
+
+The rest of the options should be self-explanatory, if you are wondering what a certain stat does, you can consult the Tarkov WIKI, which should have explanations for each.
+
+
+
+Have fun and enjoy tweaking the mod to whatever purpose you prefer. However, I do recommend not diverging too much from my default options, as I feel like I have hit a good balance.
