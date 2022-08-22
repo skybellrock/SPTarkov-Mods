@@ -1,0 +1,1229 @@
+{
+	"General Config":
+	{
+		"Debug Log": "false",
+		"Detailed Server Log": "false",
+
+		"Trader Refresh In Seconds": 10800,
+		"Flea Market Fee Multiplier": 1,
+
+		"Weakest Shrapnel Damage": 20,
+		"Weak Shrapnel Damage": 30,
+		"Medium Shrapnel Damage": 40,
+		"Strong Shrapnel Damage": 50,
+		"Strongest Shrapnel Damage": 60
+	},
+
+
+	"Simple Ammunition Config":
+	{
+		"Spawn Chance Decimal": 0.02,
+		"Spawn Chance Multiplier": 1,
+		"Spawn Stack Size Multiplier": 0.5,
+
+		"Icon Color": "red",
+		"Buy Price Multiplier": 0.75,
+		"Sell Price Multiplier": 1,
+		"Flea Price Multiplier": 2,
+		"Buy Restriction Amount Multiplier": 1,
+		"Loyalty Level Requirement": 0,
+		"Remove ALL From Flea Market": "true",
+		"Remove ALL From Secured Container": "true",
+
+		"Loot Experience Multiplier": 1,
+		"Examine Experience Multiplier": 1,
+
+
+		"All Stats Multiplier": 1,
+
+		"Damage Multiplier": 1,
+		"Armor Penetration Multiplier": 1,
+		"Damage To Armor Multiplier": 1,
+		"Accuracy Multiplier": 1,
+		"Recoil Multiplier": 1,
+		"Fragmentation Chance Multiplier": 1,
+		"Ricochet Chance Multiplier": 1,
+		"Light Bleed Chance Multiplier": 1,
+		"Heavy Bleed Chance Multiplier": 1,
+		"Bullet Velocity Multiplier": 1,
+		"Misfire Chance Multiplier": 1,
+		"Failure To Feed Chance Multiplier": 1,
+		"Durability Burn Multiplier": 1,
+		"Heat Multiplier": 1,
+
+
+		"Buckshot Pellets Multiplier": 1,
+		"Fragments Multiplier": 1,
+		"Minimum Explosion Distance Multiplier": 1,
+		"Maximum Explosion Distance Multiplier": 1,
+
+		"Tracer On": "true",
+		"Tracer Color": "red",
+		"Tracer Length Multiplier": 1
+	},
+
+	"Mod Compatibility":
+	{
+		"Add ALL Bullets To Fin's AI Tweaks (FAIT) Bot Loadouts": "true"
+	},
+
+
+	"Advanced Ammunition Config":
+	{
+		"Small Calibre":
+		{
+			"7.62x25mm TT ILLEGAL":
+			{
+				"Icon Color": "color",
+				"Buy Price": 2500,
+				"Buy Restriction Amount": 50,
+				"Loyalty Level Requirement": 0,
+				"Removed From Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 66,
+				"Armor Penetration": 25,
+				"Damage To Armor": 36,
+				"Accuracy": 15,
+				"Recoil": -15,
+				"Fragmentation Chance": 0.2,
+				"Ricochet Chance": 0.1,
+				"Light Bleed Chance": 0.15,
+				"Heavy Bleed Chance": 0.1,
+				"Bullet Velocity": 430,
+				"Misfire Chance": 0.1,
+				"Failure To Feed Chance": 0.01,
+				"Durability Burn": 2.5,
+				"Heat": 1.75,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+
+			".45 ACP ILLEGAL": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 10000,
+				"Buy Restriction Amount": 50,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 137,
+				"Armor Penetration": 38,
+				"Damage To Armor": 48,
+				"Accuracy": 10,
+				"Recoil": 0,
+				"Fragmentation Chance": 0.1,
+				"Ricochet Chance": 0.1,
+				"Light Bleed Chance": 0.3,
+				"Heavy Bleed Chance": 0.3,
+				"Bullet Velocity": 340,
+				"Misfire Chance": 0.1,
+				"Failure To Feed Chance": 0.01,
+				"Durability Burn": 2.5,
+				"Heat": 1.75,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+
+			"9x39mm ILLEGAL gs": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 12000,
+				"Buy Restriction Amount": 50,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 71,
+				"Armor Penetration": 55,
+				"Damage To Armor": 68,
+				"Accuracy": 10,
+				"Recoil": -5,
+				"Fragmentation Chance": 0.1,
+				"Ricochet Chance": 0.5,
+				"Light Bleed Chance": 0.1,
+				"Heavy Bleed Chance": 0.2,
+				"Bullet Velocity": 320,
+				"Misfire Chance": 0.1,
+				"Failure To Feed Chance": 0.01,
+				"Durability Burn": 2.5,
+				"Heat": 1.75,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+				
+			},
+			
+			"9x18mm PM ILLEGAL gzh": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 4000,
+				"Buy Restriction Amount": 50,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 77,
+				"Armor Penetration": 28,
+				"Damage To Armor": 30,
+				"Accuracy": 10,
+				"Recoil": -7,
+				"Fragmentation Chance": 0.16,
+				"Ricochet Chance": 0.9,
+				"Light Bleed Chance": 0.25,
+				"Heavy Bleed Chance": 0.1,
+				"Bullet Velocity": 519,
+				"Misfire Chance": 0.1,
+				"Failure To Feed Chance": 0.01,
+				"Durability Burn": 2.5,
+				"Heat": 1.75,
+
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+
+			"9x19mm ILLEGAL": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 8000,
+				"Buy Restriction Amount": 50,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 102,
+				"Armor Penetration": 39,
+				"Damage To Armor": 53,
+				"Accuracy": 15,
+				"Recoil": -6,
+				"Fragmentation Chance": 0.5,
+				"Ricochet Chance": 0.2,
+				"Light Bleed Chance": 0.3,
+				"Heavy Bleed Chance": 0.22,
+				"Bullet Velocity": 560,
+				"Misfire Chance": 0.1,
+				"Failure To Feed Chance": 0.01,
+				"Durability Burn": 2.5,
+				"Heat": 1.75,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+			
+			"5.7x28mm ILLEGAL": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 4000,
+				"Buy Restriction Amount": 50,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 98,
+				"Armor Penetration": 37,
+				"Damage To Armor": 43,
+				"Accuracy": 5,
+				"Recoil": -24,
+				"Fragmentation Chance": 0.2,
+				"Ricochet Chance": 0.6,
+				"Light Bleed Chance": 0.15,
+				"Heavy Bleed Chance": 0.15,
+				"Bullet Velocity": 922,
+				"Misfire Chance": 0.1,
+				"Failure To Feed Chance": 0.01,
+				"Durability Burn": 2.5,
+				"Heat": 1.75,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+			
+			"9x21mm ILLEGAL gzh": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 5000,
+				"Buy Restriction Amount": 50,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 80,
+				"Armor Penetration": 39,
+				"Damage To Armor": 47,
+				"Accuracy": 0,
+				"Recoil": -4,
+				"Fragmentation Chance": 0.2,
+				"Ricochet Chance": 0.4,
+				"Light Bleed Chance": 0.15,
+				"Heavy Bleed Chance": 0.1,
+				"Bullet Velocity": 415,
+				"Misfire Chance": 0.1,
+				"Failure To Feed Chance": 0.01,
+				"Durability Burn": 2.5,
+				"Heat": 1.75,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+			
+			"4.6x30mm ILLEGAL SX": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 12500,
+				"Buy Restriction Amount": 50,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 65,
+				"Armor Penetration": 53,
+				"Damage To Armor": 46,
+				"Accuracy": 10,
+				"Recoil": -22,
+				"Fragmentation Chance": 0.1,
+				"Ricochet Chance": 0.6,
+				"Light Bleed Chance": 0,
+				"Heavy Bleed Chance": 0,
+				"Bullet Velocity": 690,
+				"Misfire Chance": 0.1,
+				"Failure To Feed Chance": 0.01,
+				"Durability Burn": 2.5,
+				"Heat": 1.75,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			}
+		},
+
+
+
+		"Medium Calibre":
+		{
+			"7.62x39mm ILLEGAL": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 16000,
+				"Buy Restriction Amount": 30,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 87,
+				"Armor Penetration": 58,
+				"Damage To Armor": 76,
+				"Accuracy": 5,
+				"Recoil": -30,
+				"Fragmentation Chance": 0.5,
+				"Ricochet Chance": 0.435,
+				"Light Bleed Chance": 0.15,
+				"Heavy Bleed Chance": 0.15,
+				"Bullet Velocity": 754,
+				"Misfire Chance": 0.15,
+				"Failure To Feed Chance": 0.055,
+				"Durability Burn": 3.5,
+				"Heat": 2.25,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+			
+			"5.45x39mm ILLEGAL gs": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 20000,
+				"Buy Restriction Amount": 30,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 74,
+				"Armor Penetration": 62,
+				"Damage To Armor": 55,
+				"Accuracy": 50,
+				"Recoil": -25,
+				"Fragmentation Chance": 0.2,
+				"Ricochet Chance": 0.38,
+				"Light Bleed Chance": 0.2,
+				"Heavy Bleed Chance": 0.15,
+				"Bullet Velocity": 915,
+				"Misfire Chance": 0.15,
+				"Failure To Feed Chance": 0.055,
+				"Durability Burn": 3.5,
+				"Heat": 2.25,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+			
+			"5.56x45mm ILLEGAL": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 18000,
+				"Buy Restriction Amount": 30,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 88,
+				"Armor Penetration": 57,
+				"Damage To Armor": 64,
+				"Accuracy": 10,
+				"Recoil": -5,
+				"Fragmentation Chance": 0.2,
+				"Ricochet Chance": 0.48,
+				"Light Bleed Chance": 0.2,
+				"Heavy Bleed Chance": 0.2,
+				"Bullet Velocity": 1013,
+				"Misfire Chance": 0.15,
+				"Failure To Feed Chance": 0.055,
+				"Durability Burn": 3.5,
+				"Heat": 2.25,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+			
+			".300 Blackout ILLEGAL": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 15000,
+				"Buy Restriction Amount": 30,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 90,
+				"Armor Penetration": 48,
+				"Damage To Armor": 65,
+				"Accuracy": 30,
+				"Recoil": -10,
+				"Fragmentation Chance": 0.3,
+				"Ricochet Chance": 0.1,
+				"Light Bleed Chance": 0.22,
+				"Heavy Bleed Chance": 0.2,
+				"Bullet Velocity": 853,
+				"Misfire Chance": 0.15,
+				"Failure To Feed Chance": 0.055,
+				"Durability Burn": 3.5,
+				"Heat": 2.25,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+			
+			".366 TKM ILLEGAL": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 20000,
+				"Buy Restriction Amount": 15,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 110,
+				"Armor Penetration": 42,
+				"Damage To Armor": 60,
+				"Accuracy": 0,
+				"Recoil": -15,
+				"Fragmentation Chance": 0.1,
+				"Ricochet Chance": 0.65,
+				"Light Bleed Chance": 0.3,
+				"Heavy Bleed Chance": 0.25,
+				"Bullet Velocity": 770,
+				"Misfire Chance": 0.15,
+				"Failure To Feed Chance": 0.055,
+				"Durability Burn": 3.5,
+				"Heat": 2.25,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+			
+			".357 Magnum ILLEGAL": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 5000,
+				"Buy Restriction Amount": 25,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 108,
+				"Armor Penetration": 35,
+				"Damage To Armor": 43,
+				"Accuracy": 27,
+				"Recoil": -29,
+				"Fragmentation Chance": 0.1,
+				"Ricochet Chance": 0.65,
+				"Light Bleed Chance": 0.4,
+				"Heavy Bleed Chance": 0.3,
+				"Bullet Velocity": 481,
+				"Misfire Chance": 0.15,
+				"Failure To Feed Chance": 0.055,
+				"Durability Burn": 3.5,
+				"Heat": 2.25,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			}
+		},
+
+
+
+		"Large Calibre":
+		{
+			"7.62x51mm ILLEGAL": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 30000,
+				"Buy Restriction Amount": 10,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 107,
+				"Armor Penetration": 70,
+				"Damage To Armor": 85,
+				"Accuracy": 10,
+				"Recoil": -5,
+				"Fragmentation Chance": 0.13,
+				"Ricochet Chance": 0.28,
+				"Light Bleed Chance": 0.2,
+				"Heavy Bleed Chance": 0.2,
+				"Bullet Velocity": 910,
+				"Misfire Chance": 0.2,
+				"Failure To Feed Chance": 0.115,
+				"Durability Burn": 4.5,
+				"Heat": 2.75,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+			
+			"12.7x55mm PS12I": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 25000,
+				"Buy Restriction Amount": 7,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 165,
+				"Armor Penetration": 46,
+				"Damage To Armor": 57,
+				"Accuracy": 10,
+				"Recoil": -12,
+				"Fragmentation Chance": 0.3,
+				"Ricochet Chance": 0.5,
+				"Light Bleed Chance": 0.35,
+				"Heavy Bleed Chance": 0.3,
+				"Bullet Velocity": 300,
+				"Misfire Chance": 0.2,
+				"Failure To Feed Chance": 0.115,
+				"Durability Burn": 4.5,
+				"Heat": 2.75,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+
+			"12.7x55mm PS12IB": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 35000,
+				"Buy Restriction Amount": 3,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 165,
+				"Armor Penetration": 46,
+				"Damage To Armor": 57,
+				"Accuracy": 10,
+				"Recoil": -12,
+				"Fragmentation Chance": 0.3,
+				"Ricochet Chance": 0.5,
+				"Light Bleed Chance": 0.35,
+				"Heavy Bleed Chance": 0.3,
+				"Bullet Velocity": 300,
+				"Misfire Chance": 0.3,
+				"Failure To Feed Chance": 0.172,
+				"Durability Burn": 6.75,
+				"Heat": 4.12,
+
+				"Explosive": "true",
+				"Fragment Type": "Medium Illegal Shrapnel",
+				"Fragments": 10,
+				"ExplosionStrength": 50,
+				"Minimum Explosion Distance": 0.6,
+				"Maximum Explosion Distance": 6,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+			
+			"7.62x54mm R ILLEGAL gzh": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 27500,
+				"Buy Restriction Amount": 10,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 84,
+				"Armor Penetration": 70,
+				"Damage To Armor": 88,
+				"Accuracy": 10,
+				"Recoil": -5,
+				"Fragmentation Chance": 0.83,
+				"Ricochet Chance": 0.34,
+				"Light Bleed Chance": 0,
+				"Heavy Bleed Chance": 0,
+				"Bullet Velocity": 875,
+				"Misfire Chance": 0.2,
+				"Failure To Feed Chance": 0.115,
+				"Durability Burn": 4.5,
+				"Heat": 2.75,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+
+			"23x75mm ILLEGAL buckshot": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 15000,
+				"Buy Restriction Amount": 10,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 87,
+				"Armor Penetration": 11,
+				"Damage To Armor": 20,
+				"Accuracy": 20,
+				"Recoil": -30,
+				"Fragmentation Chance": 0,
+				"Ricochet Chance": 0.2,
+				"Light Bleed Chance": 0.5,
+				"Heavy Bleed Chance": 0.5,
+				"Bullet Velocity": 375,
+				"Misfire Chance": 0.2,
+				"Failure To Feed Chance": 0.115,
+				"Durability Burn": 4.5,
+				"Heat": 2.75,
+
+				"Buckshot Pellets": 8,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+			
+			"23x75mm ILLEGAL slug": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 20000,
+				"Buy Restriction Amount": 10,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 250,
+				"Armor Penetration": 39,
+				"Damage To Armor": 75,
+				"Accuracy": 50,
+				"Recoil": -50,
+				"Fragmentation Chance": 0.2,
+				"Ricochet Chance": 0.4,
+				"Light Bleed Chance": 0.3,
+				"Heavy Bleed Chance": 0.3,
+				"Bullet Velocity": 600,
+				"Misfire Chance": 0.2,
+				"Failure To Feed Chance": 0.115,
+				"Durability Burn": 4.5,
+				"Heat": 2.75,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+
+			"23x75mm ILLEGAL flashbang": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 35000,
+				"Buy Restriction Amount": 5,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 50,
+				"Armor Penetration": 100,
+				"Damage To Armor": 100,
+				"Accuracy": 100,
+				"Recoil": -100,
+				"Fragmentation Chance": 0.2,
+				"Ricochet Chance": 0.4,
+				"Light Bleed Chance": 1,
+				"Heavy Bleed Chance": 1,
+				"Bullet Velocity": 600,
+				"Misfire Chance": 0.3,
+				"Failure To Feed Chance": 0.172,
+				"Durability Burn": 6.75,
+				"Heat": 4.12,
+
+				"Flashbang": "true",
+				"Flashbang Angle": 160,
+				"Self Contusion Time": 7,
+				"Self Contusion Strength": 0.3,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			}
+		},
+
+
+
+		"Special Calibre":
+		{
+			"26x75mm signal flare of death (green)": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 15000,
+				"Buy Restriction Amount": 10,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 540,
+				"Armor Penetration": 100,
+				"Damage To Armor": 100,
+				"Accuracy": 1000,
+				"Recoil": 1000,
+				"Fragmentation Chance": 1,
+				"Ricochet Chance": 0,
+				"Light Bleed Chance": 1,
+				"Heavy Bleed Chance": 1,
+				"Bullet Velocity": 100,
+				"Misfire Chance": 0.25,
+				"Failure To Feed Chance": 0.16,
+				"Durability Burn": 5.5,
+				"Heat": 3.25,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+
+			"26x75mm signal flare of flex (tracerRed)":
+			{
+				"WARNING": "PLACEHOLDER",
+				"Icon Color": "color",
+				"Buy Price": 300000,
+				"Buy Restriction Amount": 1,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 1080,
+				"Armor Penetration": 100,
+				"Damage To Armor": 100,
+				"Accuracy": 2000,
+				"Recoil": 1500,
+				"Fragmentation Chance": 1,
+				"Ricochet Chance": 0,
+				"Light Bleed Chance": 1,
+				"Heavy Bleed Chance": 1,
+				"Bullet Velocity": 150,
+				"Misfire Chance": 0.25,
+				"Failure To Feed Chance": 0.16,
+				"Durability Burn": 5.5,
+				"Heat": 3.25,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+			
+			"12/70mm ILLEGAL buckshot": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 12500,
+				"Buy Restriction Amount": 10,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage Per Pellet": 50,
+				"Armor Penetration": 31,
+				"Damage To Armor": 26,
+				"Accuracy": 15,
+				"Recoil": 0,
+				"Fragmentation Chance": 0,
+				"Ricochet Chance": 0,
+				"Light Bleed Chance": 0.25,
+				"Heavy Bleed Chance": 0.25,
+				"Bullet Velocity": 430,
+				"Misfire Chance": 0.25,
+				"Failure To Feed Chance": 0.16,
+				"Durability Burn": 5.5,
+				"Heat": 3.25,
+
+				"Buckshot Pellets": 8,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+
+			"12/70mm ILLEGAL slug": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 15000,
+				"Buy Restriction Amount": 10,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage Per Pellet": 265,
+				"Armor Penetration": 37,
+				"Damage To Armor": 65,
+				"Accuracy": 170,
+				"Recoil": -25,
+				"Fragmentation Chance": 1,
+				"Ricochet Chance": 0.1,
+				"Light Bleed Chance": 0.4,
+				"Heavy Bleed Chance": 0.4,
+				"Bullet Velocity": 594,
+				"Misfire Chance": 0.25,
+				"Failure To Feed Chance": 0.16,
+				"Durability Burn": 5.5,
+				"Heat": 3.25,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+
+			"12/70mm ILLEGAL BOOM": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 25000,
+				"Buy Restriction Amount": 5,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage Per Pellet": 265,
+				"Armor Penetration": 37,
+				"Damage To Armor": 65,
+				"Accuracy": 170,
+				"Recoil": -25,
+				"Fragmentation Chance": 1,
+				"Ricochet Chance": 0.1,
+				"Light Bleed Chance": 1,
+				"Heavy Bleed Chance": 1,
+				"Bullet Velocity": 594,
+				"Misfire Chance": 0.37,
+				"Failure To Feed Chance": 0.24,
+				"Durability Burn": 8.2,
+				"Heat": 4.87,
+
+				"Explosive": "true",
+				"Fragment Type": "Weak Illegal Shrapnel",
+				"Fragments": 7,
+				"ExplosionStrength": 30,
+				"Minimum Explosion Distance": 0.5,
+				"Maximum Explosion Distance": 5,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+
+			"20/70mm ILLEGAL buckshot": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 5000,
+				"Buy Restriction Amount": 10,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage Per Pellet": 26,
+				"Armor Penetration": 3,
+				"Damage To Armor": 14,
+				"Accuracy": 0,
+				"Recoil": 0,
+				"Fragmentation Chance": 0,
+				"Ricochet Chance": 0,
+				"Light Bleed Chance": 0,
+				"Heavy Bleed Chance": 0,
+				"Bullet Velocity": 475,
+				"Misfire Chance": 0.25,
+				"Failure To Feed Chance": 0.16,
+				"Durability Burn": 5.5,
+				"Heat": 3.25,
+
+				"Buckshot Pellets": 10,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+
+			"20/70mm ILLEGAL slug": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 7500,
+				"Buy Restriction Amount": 10,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 219,
+				"Armor Penetration": 17,
+				"Damage To Armor": 42,
+				"Accuracy": 130,
+				"Recoil": -15,
+				"Fragmentation Chance": 1,
+				"Ricochet Chance": 0.15,
+				"Light Bleed Chance": 0.2,
+				"Heavy Bleed Chance": 0.3,
+				"Bullet Velocity": 475,
+				"Misfire Chance": 0.25,
+				"Failure To Feed Chance": 0.16,
+				"Durability Burn": 5.5,
+				"Heat": 3.25,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+
+			"20/70mm ILLEGAL BOOM": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 12500,
+				"Buy Restriction Amount": 7,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 219,
+				"Armor Penetration": 17,
+				"Damage To Armor": 42,
+				"Accuracy": 130,
+				"Recoil": -15,
+				"Fragmentation Chance": 1,
+				"Ricochet Chance": 0.15,
+				"Light Bleed Chance": 1,
+				"Heavy Bleed Chance": 1,
+				"Bullet Velocity": 475,
+				"Misfire Chance": 0.37,
+				"Failure To Feed Chance": 0.24,
+				"Durability Burn": 8.2,
+				"Heat": 4.87,
+
+				"Explosive": "true",
+				"Fragment Type": "Weakest Illegal Shrapnel",
+				"Fragments": 5,
+				"Explosion Strength": 20,
+				"Minimum Explosion Distance": 0.3,
+				"Maximum Explosion Distance": 3,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+			
+			".338 Lapua Magnum ILLEGAL": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 45000,
+				"Buy Restriction Amount": 3,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 196,
+				"Armor Penetration": 79,
+				"Damage To Armor": 89,
+				"Accuracy": 10,
+				"Recoil": 0,
+				"Fragmentation Chance": 0.13,
+				"Ricochet Chance": 0.3,
+				"Light Bleed Chance": 0.8,
+				"Heavy Bleed Chance": 0.55,
+				"Bullet Velocity": 900,
+				"Misfire Chance": 0.25,
+				"Failure To Feed Chance": 0.16,
+				"Durability Burn": 5.5,
+				"Heat": 3.25,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+
+			".338 Lapua Magnum ILLEGAL BOOM": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 60000,
+				"Buy Restriction Amount": 1,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 196,
+				"Armor Penetration": 79,
+				"Damage To Armor": 89,
+				"Accuracy": 10,
+				"Recoil": 0,
+				"Fragmentation Chance": 0.13,
+				"Ricochet Chance": 0.3,
+				"Light Bleed Chance": 1,
+				"Heavy Bleed Chance": 1,
+				"Bullet Velocity": 900,
+				"Misfire Chance": 0.37,
+				"Failure To Feed Chance": 0.24,
+				"Durability Burn": 8.2,
+				"Heat": 4.87,
+
+				"Explosive": "true",
+				"Fragment Type": "Strong Illegal Shrapnel",
+				"Fragments": 15,
+				"ExplosionStrength": 60,
+				"Minimum Explosion Distance": 0.8,
+				"Maximum Explosion Distance": 8,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			},
+			
+			"40x46mm ILLEGAL (HE) grenade": 
+			{
+				"Icon Color": "color",
+				"Buy Price": 75000,
+				"Buy Restriction Amount": 3,
+				"Loyalty Level Requirement": 0,
+				"Can Sell On Flea Market": "true/false",
+				"Removed From Secured Container": "true/false",
+	
+				"Damage": 400,
+				"Armor Penetration": 100,
+				"Damage To Armor": 100,
+				"Accuracy": 10,
+				"Recoil": -50,
+				"Fragmentation Chance": 1,
+				"Ricochet Chance": 0.5,
+				"Light Bleed Chance": 1,
+				"Heavy Bleed Chance": 1,
+				"Bullet Velocity": 250,
+				"Misfire Chance": 0.25,
+				"Failure To Feed Chance": 0.16,
+				"Durability Burn": 5.5,
+				"Heat": 3.25,
+
+				"Explosive": "true",
+				"Fragment Type":"Strongest Illegal Shrapnel",
+				"Fragments": 20,
+				"Explosion Type": "smallgrenade_expl",
+				"Explosion Strength": 70,
+				"Minimum Explosion Distance": 1,
+				"Maximum Explosion Distance": 10,
+
+				"Tracer On": "true/false",
+				"Tracer Color": "color",
+
+
+				"Mod Compatibility":
+				{
+					"Add Bullet To Fin's AI Tweaks (FAIT) Bot Loadouts": "true/false"
+				}
+			}
+		}
+	}
+}

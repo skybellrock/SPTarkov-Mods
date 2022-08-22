@@ -1,0 +1,86 @@
+Patch Notes:
+This file contains both the latest and previous patch notes
+
+Patch 1.2.0
+Updated to AKI Version 3.2.1
+Added new ammunitions. .338 Lapua Magnum and 12.7x55mm now have explosive variants. All shotgun calibres now have 3 types, buckshot, slug and explosive/flash depending on shell type
+Completely overhauled explosive ammunition so that it actually works as intended. Explosive ammunition now has a few more options
+Explosive bullets now have a much higher recoil, and also a guaranteed chance to make someone bleed
+Explosive ammunition now use quite a bit of different fragments with different damage profiles
+Added looting and examine experience to ILLEGAL ammunition, completely configurable in config
+Custom Trader's offers now show up in the Flea Market
+Fixed conflict between my mod and KMC SVM's option "Remove secure container filters", which resulted in server crash on start-up
+Fixed a bug that made the option for buckshot pellets not work
+Added option to toggle detailed server log. Setting this to false, default, will disable all the spam of text telling you what ammunition was added to what. It will also make loading the mod slightly faster. You can enable it if this information is useful to you for for example debugging purposes
+Added option to turn on debug, a much more detailed log, mostly to be used by developers as it contains very detailed information
+Added simple config option for Fin's AI, makes it much easier for anyone using Fin's AI to disable or enable AI to use ILLEGAL ammo, also turned on by default now instead of previous off
+Did a bunch of small ammunition stat balancing, especially of shotgun shells
+For now, ammunition come default at 0.75x the price they were previously
+Config guide has been updated with multiple new entries
+Added multiple new "simple Ammunition Stats" options. Sell price is no longer per bullet, but is an overall multiplier that uses buy price as a base
+Added the advanced algorithm for spawn chances. You now have a much better idea of what spawn chances are, as the new option "Spawn Chance" in "Simple Ammunition Config", uses % chance in decimal. If you set it to 0.01, the base containers have a 1% spawn chance. "Spawn Chance Multiplier" is an option in itself. Read much more about this in the updated config guide
+Added option "Spawn Stack Size Multiplier" which changes how many bullets you can find in a stack that spawns. This is by default set to 0.5x, which means that you can maximum find stacks that are as big as a full stack of an ammo, say 60 as an example, multiplied by 0.5, so in that case the max amount of bullets in a stack is 30. This depends on the max stack size of said calibre, it also automatically calculates the lowest amount, which is 1/10 of max
+Balanced the flea market, so that you can simply enable it and off the bat, it will be a balanced experience. However, the intended way to play is still with Flea Market off for ILLEGAL ammunition
+Added option to change the Flea Market fee. The fee has been significantly increase by default
+Fool-proofed the config file, it should now be really hard to mess up. If you still do, congratulations, you have ascended
+Added detailed error logs and fail-safes to help users problem-solve mistakes they make that results in unwanted mod behaviour
+Added information/description on how the new error messages and fail-safes work and how they send warning signals to the user
+Simplified, automated, dummy proofed and improved coding significantly and added a ton of small QoL, changes and features that are too small to be worthy of a mention
+I probably missed some notable changes as well, there was a lot. I tried my best to remember the biggest changes and mention them here
+
+
+Patch 1.1.1
+Fixed a bug that made .357 ammo fit inside .366 calibre magazines and guns
+Fixed a bug that made setting "Remove From Secured Container" not work
+Removed a lot of placeholders from config
+Added description of setting "Fin's AI Tweaks" to CONFIG GUIDE file
+
+
+Patch 1.1.0
+WARNING: BEFORE UPDATING, REMOVE ALL ILLEGAL AMMUNITION FROM YOUR INVENTORY. NOT DOING SO MAY RESULT IN LOSS OF BULLETS OR MORE SERIOUS ISSUES. FOLLOW THE README FOR HOW TO UPDATE.
+
+Updated to Aki Server Version 3.2.0
+Fixed a bug that made you unable to load ILLEGAL 40x46mm (HE) Grenades into the M32A1 Grenade Launcher
+Fixed name typos for 9x18mm gzh, 23x75mm buckshot and 4.6x30mm SX to fit more seemlesly in with vanilla names
+Added tracers to ALL ILLEGAL ammunition except for Flare and 40x46 (HE) grenades, because they can't have tracers
+23x75 damage has been reduced significantly, recently took total damage from a buckshot, but it is a slug
+23x75 Accuracy, Light and Heavy Bleed chance has been dramatically increased, and Recoil massively reduced to improve the bullet
+ILLEGAL Flare ID has been changed in anticipation of adding a second Flare that can spawn AirDrops in the future. This cannot be added yet because SPTarkov currently, with server version 3.1.1, doesn't have AirDrops. Code is already made and waiting for update
+MASSIVELY organized and rewritten code, it should now be much easier for those that know code to tweak all settings in my mod to their liking from the .TS file, this is also a preventative measure for bugs in the future: The tidier, the less chance I make a mistake
+Added custom advanced ammunition stats for Damage To Armor, Fragmentation Chance, Ricochet Chance, Light Bleed Chance and Heavy Bleed Chance. The first three have taken their stats from the cartridge with the highest penetration value for that calibre, the two last gets their stats from the cartridge with the highest value for that stat in their calibre
+Added incredibly detailed configuration settings, so you can tweak almost every tiny little thing to your liking. Check out the new txt file CONFIG GUIDE, and config.json to start tweaking
+Added simple and convenient optional config settings alongside the more advanced and detailed
+Reworked WEB AMMO trader picture and resized it to proper scale
+Made a plethora of changes and additions that are far too many to mention or remember
+
+
+This patch looks a little different than usual, because a lot of important things have changed. This patch comes with a whole new Economy Rework, and also the first iteration of the Ammunition Stat Rework.
+
+Ammunition Economy Balance Rework:
+
+The purpose of the Economy Balance Rework is to make it harder to abuse ILLEGAL ammunition as a quick-money-scheme, and to make ILLEGAL ammunition FEEL more important, rare and valuable. All ILLEGAL ammunition has been added to the Secured Container black-list. This means that ILLEGAL ammunition can no longer be kept inside of your Secured Container for safe-keeping. This adds risk and excitement to the game: When you find ILLEGAL ammunition you have motivation to get out safely. It also encourages players to bring good gear along with their ILLEGAL ammunition, which adds additional risk to using the best ammunition in the game. ILLEGAL ammunition has also, finally, been removed from the Flea Market, so no more cheesing money or higher quantities of bullets than you should have. Since ILLEGAL ammunition is imported illegally, the price that you pay for them from the Dark Web is lower than the actual value. Therefore, traders will only give you the actual value of the bullet, which is half, minus their greed-tax. ILLEGAL ammunition is now more evenly distributed than before and has been added to many loot tables. The chance of finding ILLEGAL item in a container now depends on what Spawn Category the container is in. The Very High category has the highest chance of spawning ILLEGAL ammunition, it is has the same chances as the previous mod versions, but it is now limited to the more "rare" containers Jaeger's Stash, Safe, Plastic Suitcase, and Jacket (214). The Very High category is used as the "base" or default chance value when calculating the chances for the other categories. The containers in the High category is Dead Scav and Ammunition Box and has three times less spawn chance for ILLEGAL ammunition. The containers in the Normal category is Burried Barrel Cache's, Ground Cache's, and Wooden Crate's and has six times less spawn chance for ILLEGAL ammunition. Finally we have the Low category, which contains All the Weapon Boxes, Sport Bag's and Jacket's, which has ten times less spawn chance for ILLEGAL ammunition. This should be balanced so that you can specifically go out of your way to "farm" ILLEGAL ammunition, but still find it through regular gameplay. I am not entirely sure how chance's work in EFT, whether the value I put is a static value with a set chance, or if the value numbers of all potential items in a container is added together, and then is calculated based on how much of this sum an item's own value is of the total. If the second is true, then the current system may be fairly unbalanced. Since I have not had time to thorougly test spawn chances, I am just making an educated guess on balanced probabilities, and may be completely under or overshooting it. Please give me feedback on this specific point.
+
+Ammunition Stat Rework Part 1
+
+Since my next major update will require a lot of work, it will take some time, so this serves as a temporary re-balance, to create a similar-to-intended effect 
+
+Changed the Malfunction chances, Heat and Durability burn to be more in-line with the end-vision that will come with a later rework. All these stats have been increased SIGNIFICANTLY, to make it more interesting and balanced to use the bullets. I think I found the perfect balance between useability, and adaptability. Depending on the calibres size and purpose, they are categorized into four; small, medium, large and special. With this patch, all ammunitions within the same category have the same value for these stats, but with the rework that is coming soon™, each bullet will have their own value for each stat. Through testing, the stats have been balanced such that you can spray about two "normal" sized magazine for each calibre, 35, 30, 20, 10 capacity magazines respectively, in quick succession without having a huge chance of malfunctions, however anything more than that and you run into major malfunction issues, as well as a high weapon max durability degredation. The higher the calibre category, the earlier you will experience major malfunction issues. After shooting three mags of "normal" size for the calibre in quick succession, you can expect to have had many, 3-10+, malfunctions, most being with the last magazine, and to have lost about 20 durability and 15 max durability. Note that when I tested this I emptied 3 magazines at full-auto right after each other, so weapon heat was a major factor to increase malfunction chance in the later magazines. Since you loose max durability and have a higher chance at malfunctions when you shoot with a overheated gun, this can be avoided by simply shooting less within a short time period. This encourages an interesting playstyle of conserving fire, and only spraying when it is smart to
+
+
+Patch 1.0.2
+Fixed a typo that made the 9x18mm malfunction stat much higher than intended
+Fixed a typo that made the 5.45x39mm malfunction stat much lower than intended
+Increased Flare penetration value to 25, so it can ignore armour level one and 2 with a fair chance to penetrate armour class 3
+The damage dealt by explosive shrapnel from the 12/70 and 20/70 Buckshot has been halved
+.366 TKM and .357 Magnum are now categorized under the medium calibres category instead of the previous large and small respectively, while 12/70 and 20/70 Buckshot are now categorized under the large calibres category instead of the previous medium, which affect their stats. A higher calibre group means their malfunction, heat and durability burn stats became significantly worse, and a lower calibre group means those stats have become significantly better
+
+
+Patch 1.0.1
+Added installation, update and uninstallation instructions to file
+Simplified installation process
+You can now sell ammunition on the Dark Web (to WEB AMMO trader) for a higher price than the regular traders. The higher your reputation (loyalty) on the market, the more people are willing to pay your for your ammunition
+Fixed a bug where you could not put .357 Magnum into the Chiappa Rhino 50DS .357 revolver
+Fixed a bug where you could not put 9x19mm into the Chiappa Rhino 200DS 9x19 revolver
+Fixed a bug where the MP-43-1C 12ga double-barrel shotgun would only accept one shell
+Fixed 12/70 and 20/70 buckshot stats, previously took the best stats from both buckshot and slugs, now takes stats only from buckshot
+Massively decreased flare penetration. It is a flare why did it even have 50 penetration value in the first place?
