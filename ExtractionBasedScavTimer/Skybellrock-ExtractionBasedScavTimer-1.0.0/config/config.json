@@ -1,0 +1,6 @@
+{
+  "baseScavResetTime": 120,
+  "scavTimeSurviveModifier": 15,
+  "scavTimeRunThroughModifier": 60,
+  "scavTimeDeadModifier": -60
+}
